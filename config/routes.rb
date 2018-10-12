@@ -5,4 +5,5 @@ Rails.application.routes.draw do
 
   root 'pages#home'
   get :hello_world, to: 'pages#hello_world'
+  get :kane, to: 'pages#kane'
 end
